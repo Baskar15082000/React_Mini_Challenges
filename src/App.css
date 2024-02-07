@@ -1,0 +1,81 @@
+.flex {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+  border: solid 1px;
+  height: 110px;
+  border-radius: 5px;
+}
+.f1,
+.f2 {
+  display: flex;
+  flex-direction: column;
+
+  align-items: start;
+
+  padding: 3px 0 3px 2rem;
+  width: 100%;
+}
+.star {
+  display: flex;
+  justify-content: space-around;
+  width: 15rem;
+}
+.give {
+  padding-left: 17px;
+  padding-bottom: 5px;
+}
+.block {
+  width: 60px;
+  background-color: gray;
+  height: 60px;
+  margin: 2px 2px 2px 2px;
+}
+.board {
+  display: flex;
+  width: 200px;
+
+  flex-wrap: wrap;
+}
+.txt {
+  font-size: 40px;
+  margin: 15px;
+}
+.lights {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid;
+  width: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  background-color: gray;
+}
+.light {
+  width: 100px;
+  height: 100px;
+  border: solid;
+  border-width: 1px;
+
+  border-radius: 50%;
+  margin: 5px 5px 5px 5px;
+}
+.calc {
+  display: flex;
+  flex-direction: column;
+}
+.screen {
+  border: solid 1px;
+  width: 300px;
+  height: 50px;
+}
+.button_ {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+}
+.btn_ {
+  width: 75px;
+  height: 45px;
+}
