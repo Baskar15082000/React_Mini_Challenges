@@ -23,7 +23,7 @@ import WaterBalancer from "./components/WaterBalancer.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Transfer />
+    {/* <Transfer />
     <br />
     <hr />
     <App />
@@ -31,9 +31,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <hr />
     <Counter />
     <hr />
-    <br />
-    {/* <CounterByReducer /> */}
-    <br />
     <br />
     <TicTacToe />
     <br />
@@ -61,9 +58,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <br />
     <hr />
     <AutoComplete />
-    <br />
+    <br /> */}
     {/* <PointerTracker /> */}
-    <br />
+    {/* <br /> */}
     <FileExplorer />
     <br />
     <WaterBalancer />
