@@ -16,14 +16,14 @@ import ChatReply from "./components/ChatReply.jsx";
 import Toastify from "./components/Toastify.jsx";
 import AutoComplete from "./components/AutoComplete.jsx";
 import AutoCompleteOffline from "./components/AutoCompleteOffline.jsx";
-import Temp from "./components/Temp.jsx";
+
 import PointerTracker from "./components/PointerTracker.jsx";
 import FileExplorer from "./components/FileExplorer.jsx";
 import WaterBalancer from "./components/WaterBalancer.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    {/* <Transfer />
+    <Transfer />
     <br />
     <hr />
     <App />
@@ -33,7 +33,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <hr />
     <br />
     {/* <CounterByReducer /> */}
-    {/*<br />
+    <br />
     <br />
     <TicTacToe />
     <br />
@@ -62,10 +62,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <hr />
     <AutoComplete />
     <br />
-    <PointerTracker />
-    <br /> */}
+    {/* <PointerTracker /> */}
+    <br />
     <FileExplorer />
     <br />
-    {/* <WaterBalancer /> */}
+    <WaterBalancer />
   </React.StrictMode>
 );
